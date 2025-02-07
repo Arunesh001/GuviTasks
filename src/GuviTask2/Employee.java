@@ -14,6 +14,7 @@ public class Employee extends Person_1 {
     // Method to display Employee details
     public void display() {
         super.display(); // Calls the display method from the Person class
+        System.out.println();
         System.out.println("Employee ID: " + employeeID);
         System.out.println("Salary: $" + salary);
     }
