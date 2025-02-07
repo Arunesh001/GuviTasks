@@ -1,6 +1,6 @@
 package GuviTask2;
 
-public class Employee extends Person {
+public class Employee extends Person_1 {
     int employeeID;
     double salary;
 
