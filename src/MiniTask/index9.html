@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Default Values</title>
+</head>
+<body>
+
+    <h2>Form Elements with Default Values</h2>
+    
+    <form>
+        <!-- Text Input -->
+        <label for="text">Text:</label>
+        <input type="text" id="text" name="text" value="ARUNESHWARAN"><br><br>
+
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="arunesh@gmail.com"><br><br>
+
+        <!-- Password Input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" value="12345"><br><br>
+
+        <!-- Number Input -->
+        <label for="number">Number:</label>
+        <input type="number" id="number" name="number" value="42"><br><br>
+
+        <!-- Date Input -->
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" value="2024-03-01"><br><br>
+
+        <!-- Time Input -->
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" value="12:30"><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Checkbox -->
+        <label>Interests:</label>
+        <input type="checkbox" id="sports" name="interests" value="sports" checked>
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label><br><br>
+
+        <!-- Select Dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="Russia" >Russia</option>
+            <option value="India" selected>India</option>
+            <option value="UK">UK</option>
+        </select><br><br>
+
+        <!-- Textarea -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="30">Hello, this is a default message.</textarea><br><br>
+
+        <!-- Range Input -->
+        <label for="range">Range:</label>
+        <input type="range" id="range" name="range" min="0" max="100" value="50"><br><br>
+
+        <!-- File Input -->
+        <label for="file">Upload File:</label>
+        <input type="file" id="file" name="file"><br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
